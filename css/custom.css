@@ -1,0 +1,68 @@
+.logo{
+    
+    color: red;
+    
+}
+header nav a{
+    color: green;
+} 
+
+article p::first-letter {
+     margin-left: 30px;
+
+}
+
+#blog{
+    background-color: #666;
+    font: color #cff;
+}
+
+.gallery figure:hover{
+    box-shadow: 10px 10px 5px #777;
+}
+
+#blog{
+    margin-top: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article-title{
+    text-align: center;
+     
+}
+
+ h2{
+    text-transform: uppercase;
+}
+
+h2::before{
+    content: ">";
+    margin-right: 4px;
+}
+
+.form-input{
+    display: block;
+    margin: 1%;
+    
+
+}
+form input[type="radio"]{
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+input:focus{
+    padding: .5%;
+    border-width: 4px;
+}
+
+footer{
+    background-color: rgb(53, 51, 48);
+    
+}
+
+footer p{
+ color: #e2af58;
+}
