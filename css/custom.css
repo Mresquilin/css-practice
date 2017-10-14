@@ -1,24 +1,51 @@
+/* #1 */
 .logo{
     
     color: red;
     
 }
+/* #2 */
 header nav a{
+    color: green;
+
+} 
+
+/* #3 */
+header nav a:visited{
+    color: #444;
+}
+
+/* #4 */
+.card p{
     color: green;
 } 
 
+/* #5 */
+above-the-fold.button{
+    background-color: rgb(80, 255, 80);
+    font: color rgb(96, 245, 91);
+}
+  /*#6  */
 article p::first-letter {
      margin-left: 30px;
 
 }
 
+/* #7 */
 #blog{
     background-color: #666;
-    font: color #cff;
+    font : color #cff;
 }
 
+
+/* #8 */
 .gallery figure:hover{
     box-shadow: 10px 10px 5px #777;
+}
+
+/* #9 */
+.gallery figcaption{
+    padding: 8px;
 }
 
 #blog{
@@ -28,19 +55,31 @@ article p::first-letter {
     margin-right: auto;
 }
 
-.article-title{
-    text-align: center;
-     
+/* #10 */
+.article-title p{
+    margin-top: 40px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+/* #12 */
+.article-title{
+    text-align: center;
+   } 
+
+
+/* #13 */
  h2{
     text-transform: uppercase;
 }
 
+/* #19 */
 h2::before{
     content: ">";
     margin-right: 4px;
 }
+
 
 .form-input{
     display: block;
